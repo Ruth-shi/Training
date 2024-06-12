@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.flexMe {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+button {
+  width: calc(50% - 5px);
+  margin-right: 5px;
+}
+
+button {
+  width: 100%;
+}
+label {
+  margin-left: 5px;
+}
+
+input,
+button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 10px;
+}
+#register {
+  background-color: #3495e5;
+}
+#signIn {
+  background-color: #33c65d;
+}
+.group input,
+.form-group button {
+  margin-right: 10px;
+}
+.group div {
+  flex: 1;
+  padding-left: 30px;
+  font-size: 10px;
+}
+.ag {
+  font-size: 13px;
+  font-weight: bold;
+
+}
